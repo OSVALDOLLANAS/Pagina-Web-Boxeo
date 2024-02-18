@@ -1,0 +1,86 @@
+/* Global */
+body{
+    background-color: #cc9f66;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+dl{
+    font-size: 25px;
+}
+span{
+    font-size: 60px;
+    color: gold;
+}
+/* Navegacion Principal */
+.nav-principal{
+    background-color:white;
+}
+.nav-principal nav{
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+/* Descendientes */
+dl > dt{
+    font-weight: bold;
+}
+/* Listas */
+ul{
+    font-size: 25px;
+}
+ol{
+    font-size: 25px;
+}
+/* Multimedia */
+video[src]{
+    border-radius: 10px;
+    width: 600px;
+}
+img[src]{
+    border-radius: 10px;
+    width: 500px;
+}
+.pluma{
+    height: 500px;
+}
+/* Tablas */
+table{
+    font-size: 25px;
+}
+td{
+    color: white;
+}
+iframe{
+    border-radius: 10px;
+}
+/* Formulario */
+textarea{
+    border-radius: 10px;
+    font-size: 20px;
+}
+input[type]{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* Cite */
+cite{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+/* Footer */
+footer{
+    font-size: 30px;
+}
